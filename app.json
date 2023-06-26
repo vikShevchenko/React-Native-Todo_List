@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Todo-list",
+    "slug": "my-todo-list",
+    "description": "This is my Todo-list-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.viktorshevchenko.mytodolist"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1a74a095-8c82-4500-920e-a0897feea840"
+      }
+    },
+    "owner": "viktorshevchenko"
+  }
+}
